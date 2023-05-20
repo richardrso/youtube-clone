@@ -147,6 +147,7 @@ hr {
   object-fit: cover;
   height: 94%;
   width: 100%;
+  border-radius: 5%;
 }
 
 .author img {
