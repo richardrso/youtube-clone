@@ -114,3 +114,9 @@ input:focus {
 .active {
   background: #e5e5e5;
 }
+
+hr {
+  height: 1px;
+  background-color: #e5e5e5;
+  border: none;
+}
