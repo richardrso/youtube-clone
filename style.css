@@ -33,11 +33,7 @@ main {
   overflow-y: hidden;
 }
 
-@media (max-width: 768px) {
-  .side-bar {
-    display: none;
-  }
-}
+
 
 .left {
   display: flex;
@@ -152,6 +148,7 @@ hr {
   height: 94%;
   width: 100%;
 }
+
 .author img {
   object-fit: cover;
   border-radius: 50%;
@@ -163,19 +160,19 @@ hr {
 .details {
   display: flex;
 }
- 
+
 .title {
   display: flex;
   flex-direction: column;
 }
- 
+
 .title h3 {
   color: rgb(3, 3, 3);
   line-height: 18px;
   font-size: 14px;
   margin-bottom: 6px;
 }
- 
+
 .title a,
 span {
   text-decoration: none;
@@ -183,3 +180,24 @@ span {
   font-size: 12px;
 }
 
+@media (max-width: 768px) {
+  .side-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .side-bar {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .search input {
+    width: 25rem;
+  }
+}
